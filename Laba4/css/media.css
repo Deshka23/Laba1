@@ -1,0 +1,108 @@
+@media screen and (max-width: 415px){
+
+    .content{
+        height: auto;
+        width: 100%;
+        max-width: 415px;
+    }
+
+    header{
+        background: url(../img/backgroundHeader.jpg) no-repeat;
+        min-height: 665px;
+        width: 100%;
+        max-width: 415px;
+    }
+
+    .logo{
+        margin-left: 10%;
+    }
+
+    .container {
+        width: 100%;
+        max-width: 415px;
+        color: #888;
+    }
+
+    .tabcontent {
+        height: 430px;
+        width: 100%;
+        max-width: 415px;
+        background-color: #2e4041;
+        display: none;
+    }
+
+    .logoAndText{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sectionText{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        height: 210px;
+        margin-top: 10%;
+    }
+
+    .sectionText p{
+        color: #585858;
+        font-size: 1.2em;
+        width: 94%;
+        max-width: 415px;
+        text-align: left;
+        margin-left: 5%;
+    }
+
+    .block{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .item{
+        margin-top: 5%;
+        width: 200px;
+        margin-left: 25%;
+    }
+
+    .footer{
+        min-height: 120px;
+        min-width: 100%;
+        background: #333;
+        margin-top: 20%;
+    }
+
+    .mainFooter img{
+        margin: 2% 0 0 2%;
+        height: 30%;
+        width: 30%;
+    }
+
+    .infofooter p{
+        color: #fff;
+        text-align: center;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .sectionText{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        max-width: 768px;
+        text-align: center;
+        min-height: 210px;
+    }
+
+    .sectionText p{
+        color: #585858;
+        font-size: 1.2em;
+        width: 100%;
+        max-width: 800px;
+        text-align: left;
+        margin: 0;
+        padding-left: 5%;
+    }
+}
