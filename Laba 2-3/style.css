@@ -1,0 +1,40 @@
+.row{
+	height: 1000px;	
+}
+.col-md-8{
+	background-color: #FF0000;
+	justify-content: space-around;
+	align-items: center;
+	bo
+
+}
+.pink{
+	background-color: #FF00FF;
+}
+.blue{
+	background-color: #6495ED;
+}
+.orange{
+	background-color: #F4A460;
+}
+.first{
+	height: 200px;
+	width: 200px;
+	border: 1px solid #FFFF00;
+}
+h1,h2,h3,h4,h5,h6,p{
+	color: #FFFFFF;
+}
+img{
+	height: 200px;
+	width: 200px;
+	border: 1px solid #FFFF00;
+}
+.place{
+	justify-content: space-between;
+	align-items: center;
+}
+.card{
+	background-color: #FF0000;
+	border: 1px solid #FFFF00;
+}
