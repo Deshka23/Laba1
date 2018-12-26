@@ -1,0 +1,55 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+
+.House{
+    margin: 100px;
+}
+
+.House div:nth-child(2){
+    width: 200px;
+    height: 300px; 
+    background: #778899;
+    border: 5px inset #2F4F4F;
+}
+
+.triangle-up {
+	width: 110px;
+	height: 100px;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid #8B4513;
+}
+
+.House div:nth-child(3){
+    width: 40px;
+    height: 40px;
+    background: yellow;
+    border-radius: 50%;
+    border: 5px double #000000;
+    position: relative;
+    bottom: 200px;
+    margin-left: 30px;
+}
+
+.House div:nth-child(4){
+    width: 40px;
+    height: 40px;
+    background: yellow;
+    border-radius: 50%;
+    border: 5px double #000000;
+    position: relative;
+    bottom: 250px;
+    margin-left: 130px;
+}
+
+.House div:nth-child(5){
+    width: 40px;
+    height: 90px;
+    border: 5px inset #800000;
+    position: relative;
+    background: #8B4513;
+    bottom: 200px;
+    margin-left: 80px;
+}
